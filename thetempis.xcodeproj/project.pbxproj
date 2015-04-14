@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		57C046831ADCA50300464DD0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C046821ADCA50300464DD0 /* AppDelegate.swift */; };
+		57C046851ADCA50300464DD0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C046841ADCA50300464DD0 /* ViewController.swift */; };
+		57C046881ADCA50300464DD0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57C046861ADCA50300464DD0 /* Main.storyboard */; };
+		57C0468A1ADCA50300464DD0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57C046891ADCA50300464DD0 /* Images.xcassets */; };
+		57C0468D1ADCA50300464DD0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57C0468B1ADCA50300464DD0 /* LaunchScreen.xib */; };
+		57C046991ADCA50300464DD0 /* thetempisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C046981ADCA50300464DD0 /* thetempisTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		57C046931ADCA50300464DD0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57C046751ADCA50300464DD0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57C0467C1ADCA50300464DD0;
+			remoteInfo = thetempis;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		57C0467D1ADCA50300464DD0 /* thetempis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = thetempis.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		57C046811ADCA50300464DD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57C046821ADCA50300464DD0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		57C046841ADCA50300464DD0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		57C046871ADCA50300464DD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		57C046891ADCA50300464DD0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		57C0468C1ADCA50300464DD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		57C046921ADCA50300464DD0 /* thetempisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = thetempisTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		57C046971ADCA50300464DD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57C046981ADCA50300464DD0 /* thetempisTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thetempisTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		57C0467A1ADCA50300464DD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57C0468F1ADCA50300464DD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		57C046741ADCA50300464DD0 = {
+			isa = PBXGroup;
+			children = (
+				57C0467F1ADCA50300464DD0 /* thetempis */,
+				57C046951ADCA50300464DD0 /* thetempisTests */,
+				57C0467E1ADCA50300464DD0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		57C0467E1ADCA50300464DD0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57C0467D1ADCA50300464DD0 /* thetempis.app */,
+				57C046921ADCA50300464DD0 /* thetempisTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		57C0467F1ADCA50300464DD0 /* thetempis */ = {
+			isa = PBXGroup;
+			children = (
+				57C046821ADCA50300464DD0 /* AppDelegate.swift */,
+				57C046841ADCA50300464DD0 /* ViewController.swift */,
+				57C046861ADCA50300464DD0 /* Main.storyboard */,
+				57C046891ADCA50300464DD0 /* Images.xcassets */,
+				57C0468B1ADCA50300464DD0 /* LaunchScreen.xib */,
+				57C046801ADCA50300464DD0 /* Supporting Files */,
+			);
+			path = thetempis;
+			sourceTree = "<group>";
+		};
+		57C046801ADCA50300464DD0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				57C046811ADCA50300464DD0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		57C046951ADCA50300464DD0 /* thetempisTests */ = {
+			isa = PBXGroup;
+			children = (
+				57C046981ADCA50300464DD0 /* thetempisTests.swift */,
+				57C046961ADCA50300464DD0 /* Supporting Files */,
+			);
+			path = thetempisTests;
+			sourceTree = "<group>";
+		};
+		57C046961ADCA50300464DD0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				57C046971ADCA50300464DD0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		57C0467C1ADCA50300464DD0 /* thetempis */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57C0469C1ADCA50300464DD0 /* Build configuration list for PBXNativeTarget "thetempis" */;
+			buildPhases = (
+				57C046791ADCA50300464DD0 /* Sources */,
+				57C0467A1ADCA50300464DD0 /* Frameworks */,
+				57C0467B1ADCA50300464DD0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = thetempis;
+			productName = thetempis;
+			productReference = 57C0467D1ADCA50300464DD0 /* thetempis.app */;
+			productType = "com.apple.product-type.application";
+		};
+		57C046911ADCA50300464DD0 /* thetempisTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57C0469F1ADCA50300464DD0 /* Build configuration list for PBXNativeTarget "thetempisTests" */;
+			buildPhases = (
+				57C0468E1ADCA50300464DD0 /* Sources */,
+				57C0468F1ADCA50300464DD0 /* Frameworks */,
+				57C046901ADCA50300464DD0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57C046941ADCA50300464DD0 /* PBXTargetDependency */,
+			);
+			name = thetempisTests;
+			productName = thetempisTests;
+			productReference = 57C046921ADCA50300464DD0 /* thetempisTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		57C046751ADCA50300464DD0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Matthew Chess";
+				TargetAttributes = {
+					57C0467C1ADCA50300464DD0 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					57C046911ADCA50300464DD0 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 57C0467C1ADCA50300464DD0;
+					};
+				};
+			};
+			buildConfigurationList = 57C046781ADCA50300464DD0 /* Build configuration list for PBXProject "thetempis" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 57C046741ADCA50300464DD0;
+			productRefGroup = 57C0467E1ADCA50300464DD0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57C0467C1ADCA50300464DD0 /* thetempis */,
+				57C046911ADCA50300464DD0 /* thetempisTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		57C0467B1ADCA50300464DD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57C046881ADCA50300464DD0 /* Main.storyboard in Resources */,
+				57C0468D1ADCA50300464DD0 /* LaunchScreen.xib in Resources */,
+				57C0468A1ADCA50300464DD0 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57C046901ADCA50300464DD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		57C046791ADCA50300464DD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57C046851ADCA50300464DD0 /* ViewController.swift in Sources */,
+				57C046831ADCA50300464DD0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57C0468E1ADCA50300464DD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57C046991ADCA50300464DD0 /* thetempisTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		57C046941ADCA50300464DD0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57C0467C1ADCA50300464DD0 /* thetempis */;
+			targetProxy = 57C046931ADCA50300464DD0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		57C046861ADCA50300464DD0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57C046871ADCA50300464DD0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		57C0468B1ADCA50300464DD0 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57C0468C1ADCA50300464DD0 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		57C0469A1ADCA50300464DD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		57C0469B1ADCA50300464DD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		57C0469D1ADCA50300464DD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = thetempis/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		57C0469E1ADCA50300464DD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = thetempis/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		57C046A01ADCA50300464DD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = thetempisTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/thetempis.app/thetempis";
+			};
+			name = Debug;
+		};
+		57C046A11ADCA50300464DD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = thetempisTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/thetempis.app/thetempis";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		57C046781ADCA50300464DD0 /* Build configuration list for PBXProject "thetempis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57C0469A1ADCA50300464DD0 /* Debug */,
+				57C0469B1ADCA50300464DD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57C0469C1ADCA50300464DD0 /* Build configuration list for PBXNativeTarget "thetempis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57C0469D1ADCA50300464DD0 /* Debug */,
+				57C0469E1ADCA50300464DD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		57C0469F1ADCA50300464DD0 /* Build configuration list for PBXNativeTarget "thetempisTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57C046A01ADCA50300464DD0 /* Debug */,
+				57C046A11ADCA50300464DD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 57C046751ADCA50300464DD0 /* Project object */;
+}
