@@ -14,7 +14,6 @@
 		57C0468A1ADCA50300464DD0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57C046891ADCA50300464DD0 /* Images.xcassets */; };
 		57C0468D1ADCA50300464DD0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57C0468B1ADCA50300464DD0 /* LaunchScreen.xib */; };
 		57C046991ADCA50300464DD0 /* thetempisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C046981ADCA50300464DD0 /* thetempisTests.swift */; };
-		57C046A31ADCA53D00464DD0 /* fetchWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C046A21ADCA53D00464DD0 /* fetchWeather.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +38,6 @@
 		57C046921ADCA50300464DD0 /* thetempisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = thetempisTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		57C046971ADCA50300464DD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		57C046981ADCA50300464DD0 /* thetempisTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thetempisTests.swift; sourceTree = "<group>"; };
-		57C046A21ADCA53D00464DD0 /* fetchWeather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = fetchWeather.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,7 +82,6 @@
 				57C046821ADCA50300464DD0 /* AppDelegate.swift */,
 				57C046841ADCA50300464DD0 /* ViewController.swift */,
 				57BD1D9D1ADDF65700A4706A /* CurrentWeather.swift */,
-				57C046A21ADCA53D00464DD0 /* fetchWeather.swift */,
 				57C046861ADCA50300464DD0 /* Main.storyboard */,
 				57C046891ADCA50300464DD0 /* Images.xcassets */,
 				57C0468B1ADCA50300464DD0 /* LaunchScreen.xib */,
@@ -218,7 +215,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				57C046A31ADCA53D00464DD0 /* fetchWeather.swift in Sources */,
 				57C046851ADCA50300464DD0 /* ViewController.swift in Sources */,
 				57BD1D9E1ADDF65700A4706A /* CurrentWeather.swift in Sources */,
 				57C046831ADCA50300464DD0 /* AppDelegate.swift in Sources */,
