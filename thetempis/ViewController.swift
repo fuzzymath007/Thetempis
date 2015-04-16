@@ -17,7 +17,6 @@ class ViewController: UIViewController {
         let apikey = "677c6923d87fa40fc9502f09713aec93"
         
         let location = "ann,arbor"
-        
             
             let baseURL = NSURL(string: "http://api.openweathermap.org/data/2.5/weather?APPID=\(apikey)&q=\(location)")
             
@@ -34,19 +33,16 @@ class ViewController: UIViewController {
                     let currentWeather = CurrentWeather(currentWeatherDictionary: weatherDictionary)
                     println(currentWeather.temperature)
                     println(currentWeather.humidity)
-                    println(currentWeather.currentTime)
-
+                    println(currentWeather.currentTime!)
+                    println(currentWeather.summary)
+                    println(currentWeather.id)
                 }
-                
-                
+ 
             })
             
             downloadTask.resume()
             
         }
-
-
-
 
 }
 
