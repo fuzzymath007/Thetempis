@@ -17,10 +17,9 @@ class Location: NSObject, CLLocationManagerDelegate {
     
     var userLocation: CLLocation?
     
-
-    
     override init() {
         super.init()
+        
         
         self.locationManager.delegate = self
         self.locationManager.desiredAccuracy = kCLLocationAccuracyBest
@@ -60,12 +59,11 @@ class Location: NSObject, CLLocationManagerDelegate {
     
     func locationManager(manager: CLLocationManager!, didUpdateLocations locations: [AnyObject]!) {
         
-        println(locations)
+
         
-        userLocation = locations[0] as? CLLocation
-        
-        
-        
+        self.userLocation = locations.last as? CLLocation
+ 
+
     }
     
     func getLocation() -> (currentLat: CLLocationDegrees, currentLong: CLLocationDegrees){
@@ -75,7 +73,11 @@ class Location: NSObject, CLLocationManagerDelegate {
         var currentLong = userLocation?.coordinate.latitude
         
         
-        return (currentLat!, currentLong!)
+        if (currentLat != nil && currentLat != nil){
+            return (currentLat!, currentLong!)
+        }else {
+            return(99.99,99.99)
+        }
     
     
     }

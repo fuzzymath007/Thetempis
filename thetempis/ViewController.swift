@@ -24,13 +24,7 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var weatherImage: UIImageView!
     
-    
-    
-    
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+    @IBAction func findLocation(sender: UIButton) {
         
         var locationControler:Location?
         
@@ -38,7 +32,17 @@ class ViewController: UIViewController {
         
         var currentLocation = locationControler?.getLocation()
         
-        println(currentLocation)
+        println(currentLocation!.currentLat + currentLocation!.currentLong)
+        
+        
+    }
+    
+    
+    
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Do any additional setup after loading the view, typically from a nib.
         
 
      
