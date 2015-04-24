@@ -9,10 +9,38 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    @IBOutlet weak var locationLabel: UILabel!
+    
+    @IBOutlet weak var timeLabel: UILabel!
+    
+    @IBOutlet weak var weatherSummaryLabel: UILabel!
 
+    @IBOutlet weak var tempLabel: UILabel!
+    
+    @IBOutlet weak var humidityLabel: UILabel!
+    
+    @IBOutlet weak var changeOfRainLabel: UILabel!
+    
+    @IBOutlet weak var weatherImage: UIImageView!
+    
+    
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        var locationControler:Location?
+        
+        locationControler = Location()
+        
+        var currentLocation = locationControler?.getLocation()
+        
+        println(currentLocation)
+        
+
      
         let apikey = "677c6923d87fa40fc9502f09713aec93"
         
@@ -31,6 +59,21 @@ class ViewController: UIViewController {
                     
                     
                     let currentWeather = CurrentWeather(currentWeatherDictionary: weatherDictionary)
+                    
+                    var tempInKalvins = currentWeather.temperature
+                    
+                    var tempInFarinhight = self.convertToFahrenheit(tempInKalvins)
+                    
+                    dispatch_async(dispatch_get_main_queue(), { () -> Void in
+                    
+                        self.tempLabel.text = "\(tempInFarinhight)°"
+                        self.humidityLabel.text = "\(currentWeather.humidity)%"
+                        self.weatherSummaryLabel.text = currentWeather.summary
+                    })
+                    
+                    
+                    
+                    
                     println(currentWeather.temperature)
                     println(currentWeather.humidity)
                     println(currentWeather.currentTime!)
@@ -41,8 +84,19 @@ class ViewController: UIViewController {
             })
             
             downloadTask.resume()
-            
+   
         }
+    
+    
+    func convertToFahrenheit(tempInKalvins: Double) -> Int{
+        let tempInCelcus = tempInKalvins - 273
+        
+        let tempInFaherenheit = Int(tempInCelcus*(9/5)+32)
+        
+        return tempInFaherenheit
+        
+    }
+    
 
 }
 

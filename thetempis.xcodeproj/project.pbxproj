@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		579D13081AE73D4800A0FE66 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 579D13071AE73D4800A0FE66 /* Location.swift */; };
 		57BD1D9E1ADDF65700A4706A /* CurrentWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BD1D9D1ADDF65700A4706A /* CurrentWeather.swift */; };
 		57C046831ADCA50300464DD0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C046821ADCA50300464DD0 /* AppDelegate.swift */; };
 		57C046851ADCA50300464DD0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C046841ADCA50300464DD0 /* ViewController.swift */; };
@@ -14,6 +15,7 @@
 		57C0468A1ADCA50300464DD0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57C046891ADCA50300464DD0 /* Images.xcassets */; };
 		57C0468D1ADCA50300464DD0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57C0468B1ADCA50300464DD0 /* LaunchScreen.xib */; };
 		57C046991ADCA50300464DD0 /* thetempisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C046981ADCA50300464DD0 /* thetempisTests.swift */; };
+		57E5DA1C1AE9A6720006D1DF /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57E5DA1B1AE9A6720006D1DF /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		579D13071AE73D4800A0FE66 /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		57BD1D9D1ADDF65700A4706A /* CurrentWeather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CurrentWeather.swift; path = ../CurrentWeather.swift; sourceTree = "<group>"; };
 		57C0467D1ADCA50300464DD0 /* thetempis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = thetempis.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57C046811ADCA50300464DD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -38,6 +41,7 @@
 		57C046921ADCA50300464DD0 /* thetempisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = thetempisTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		57C046971ADCA50300464DD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		57C046981ADCA50300464DD0 /* thetempisTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thetempisTests.swift; sourceTree = "<group>"; };
+		57E5DA1B1AE9A6720006D1DF /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57E5DA1C1AE9A6720006D1DF /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +66,7 @@
 		57C046741ADCA50300464DD0 = {
 			isa = PBXGroup;
 			children = (
+				57E5DA1B1AE9A6720006D1DF /* CoreLocation.framework */,
 				57C0467F1ADCA50300464DD0 /* thetempis */,
 				57C046951ADCA50300464DD0 /* thetempisTests */,
 				57C0467E1ADCA50300464DD0 /* Products */,
@@ -82,6 +88,7 @@
 				57C046821ADCA50300464DD0 /* AppDelegate.swift */,
 				57C046841ADCA50300464DD0 /* ViewController.swift */,
 				57BD1D9D1ADDF65700A4706A /* CurrentWeather.swift */,
+				579D13071AE73D4800A0FE66 /* Location.swift */,
 				57C046861ADCA50300464DD0 /* Main.storyboard */,
 				57C046891ADCA50300464DD0 /* Images.xcassets */,
 				57C0468B1ADCA50300464DD0 /* LaunchScreen.xib */,
@@ -165,6 +172,11 @@
 					57C0467C1ADCA50300464DD0 = {
 						CreatedOnToolsVersion = 6.2;
 						DevelopmentTeam = WT24N59ZSA;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					57C046911ADCA50300464DD0 = {
 						CreatedOnToolsVersion = 6.2;
@@ -218,6 +230,7 @@
 			files = (
 				57C046851ADCA50300464DD0 /* ViewController.swift in Sources */,
 				57BD1D9E1ADDF65700A4706A /* CurrentWeather.swift in Sources */,
+				579D13081AE73D4800A0FE66 /* Location.swift in Sources */,
 				57C046831ADCA50300464DD0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
