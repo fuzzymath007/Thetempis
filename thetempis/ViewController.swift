@@ -26,26 +26,19 @@ class ViewController: UIViewController {
     
     @IBAction func findLocation(sender: UIButton) {
         
-        var locationControler:Location?
+        var userLocation = Location()
         
-        locationControler = Location()
+        var locationData = userLocation.getLocation()
         
-        var currentLocation = locationControler?.getLocation()
-        
-        println(currentLocation!.currentLat + currentLocation!.currentLong)
+        println(locationData)
         
         
     }
-    
-    
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-
-     
         let apikey = "677c6923d87fa40fc9502f09713aec93"
         
         let location = "ann,arbor"
@@ -75,20 +68,18 @@ class ViewController: UIViewController {
                         self.weatherSummaryLabel.text = currentWeather.summary
                     })
                     
-                    
-                    
-                    
                     println(currentWeather.temperature)
                     println(currentWeather.humidity)
                     println(currentWeather.currentTime!)
                     println(currentWeather.summary)
                     println(currentWeather.id)
                 }
- 
             })
-            
             downloadTask.resume()
-   
+        
+
+        
+        
         }
     
     

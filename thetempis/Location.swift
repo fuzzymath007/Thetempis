@@ -12,24 +12,18 @@ import CoreLocation
 
 class Location: NSObject, CLLocationManagerDelegate {
     
-    
     var locationManager = CLLocationManager()
     
     var userLocation: CLLocation?
     
     override init() {
         super.init()
-        
-        
         self.locationManager.delegate = self
         self.locationManager.desiredAccuracy = kCLLocationAccuracyBest
         self.locationManager.requestAlwaysAuthorization()
-
-  
     }
     
     func locationManager(manager: CLLocationManager!, didChangeAuthorizationStatus status: CLAuthorizationStatus) {
-        println("didChangeAuthorizationStatus")
         
         switch status {
         case .NotDetermined:
@@ -59,28 +53,14 @@ class Location: NSObject, CLLocationManagerDelegate {
     
     func locationManager(manager: CLLocationManager!, didUpdateLocations locations: [AnyObject]!) {
         
-
+        userLocation = locations.last as? CLLocation
         
-        self.userLocation = locations.last as? CLLocation
  
-
     }
     
-    func getLocation() -> (currentLat: CLLocationDegrees, currentLong: CLLocationDegrees){
-        
-        var currentLat = userLocation?.coordinate.latitude
-        
-        var currentLong = userLocation?.coordinate.latitude
-        
-        
-        if (currentLat != nil && currentLat != nil){
-            return (currentLat!, currentLong!)
-        }else {
-            return(99.99,99.99)
-        }
-    
-    
-    }
-    
+//    func getLocation() -> (currentLat: CLLocationDegrees, currentLong: CLLocationDegrees){
+//        
+//
+//        
+//    }
 }
-
