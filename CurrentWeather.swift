@@ -65,6 +65,8 @@ struct CurrentWeather {
         return iconImage!
     }
     
+    
+    
    
 }
 
